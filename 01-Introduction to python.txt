@@ -32,7 +32,7 @@ How to write program in Python
 	* No need of semicolon aat the end of every statement.
 	* Strings can be defined using either single (') or double (") quotes.
  	For Example: 
-		'Hello, World!', "Python is awesome"
+		'Hello, World!', "learning python"
 
 	* Comments start with # and are used to add explanations or notes to your code. 
 	For Example:
