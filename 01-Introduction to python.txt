@@ -1,0 +1,50 @@
+--------------------------------------------------
+Introduction to Python Programming
+--------------------------------------------------
+Python is a versatile and beginner-friendly language known for its readability and ease of use. 
+It's widely used in web development, data analysis, artificial intelligence, and more.
+ 
+
+-------------------------------------------
+Features of Python Programming
+-------------------------------------------
+         * Python is freely available, and its source code can be modified 
+         * Python is dynamically typed.You don't need to specify variable types; Python infers them at runtime.
+         * python is platform independent.
+         * Python supports OOP(object oriented programming).
+         * It can be easily integrated with other languages like C, C++, and Java.
+
+
+
+--------------------------------------------
+How to write program in Python
+--------------------------------------------
+	* Python uses indentation (whitespace) to define blocks of code. Python does not use braces {} to denote blocks.
+	For example:
+		if condition:
+		    statement1
+    		    statement2
+	* A colon' : ' is used to indicate the start of an indented block, such as in loops, conditionals, functions, and classes.
+	* If a statement is too long to fit on one line, you can use a backslash \ to continue it on the next line.
+	 For Example:
+		sum= 1+2+/
+		          3+4
+	* No need of semicolon aat the end of every statement.
+	* Strings can be defined using either single (') or double (") quotes.
+ 	For Example: 
+		'Hello, World!', "Python is awesome"
+
+	* Comments start with # and are used to add explanations or notes to your code. 
+	For Example:
+		# This is a comment.
+	* It is not necessary to define datatype of a variable in python as it automatically decides the datatype according to the value given to a variable.
+	For Example:
+		x = 5      # x is an integer
+		y = 3.14   # y is a float
+-------------------------------
+Python Print statement
+-------------------------------
+The Python "print" statement is a built-in function used to display information on the screen. It allows programmers to output text, variables, or expressions to the console. .
+ For example, 
+	print("Hello, World!") 
+will display the text "Hello, World!" on the console.
