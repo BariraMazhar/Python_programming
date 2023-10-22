@@ -1,0 +1,49 @@
+-----------
+ Variable
+-----------
+	Variable are memory locations that are used to store data.These are the containers that hold data.In python, assigning a value to a variable is very easy.
+For Example:
+		a=1
+		b="Python"
+		c=10.5
+			etc.
+
+------------
+ Data type
+------------
+	datatype specifies the value that a variable holds.These are used in performing operations on variables.
+For Example:
+		a=1   #integer data type
+		b="Python"   #string data type
+		c=10.5   #float datatype
+		    etc.
+
+	1-Numeric data: (int, float)
+		int: a=1
+		float: c=10.5
+
+	2-Text data: str (string)
+		b="python"
+
+	3-Sequenced data: (List, Tuple)
+		i-List:
+			List is an ordered collection of data elements separated by comma and enclosed in square brackets that can be modified after creation.
+For Example:
+		list1= ["Lion","Tiger","leopard"]
+
+		ii-Tuple:
+			Tuple is an ordered collection of data elements separated by comma and enclosed in parenthesis that is immutable and can not be modified after creation.
+For Example:
+		tuple1= ("parrot","sparrow","crow")
+
+
+	4-Mapped data: dict (dictionary)
+		 dictionary is an unordered collection of data containing key:value pairs and enclosed within curly braces.
+For Example:
+		dict1={"name":tony, "age":48, "gender":"male"}
+ 
+
+     * In Python,we can print the type of any variable using 'type' function.
+	For Example:
+			a=1
+			print(type(a))
