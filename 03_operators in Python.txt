@@ -1,0 +1,25 @@
+----------
+Operators
+----------
+	There are different operations in python that are used to perform specific operations.
+For Example:
+	to make a calculator, we require arithmetic operators.
+
+-------------------
+Arithmetic operator
+-------------------
+	1-Adddition: (a+b)
+		!0+2=12
+	
+	2-Subtraction: (a-b)
+		10-2=8
+
+	3-Multiplication: (*)
+		10*2=20
+
+	4-Divison: (/)
+		10/2=5
+
+	5-Modulus: (%)
+		*This is used to print the remainder.
+		10%2=0
