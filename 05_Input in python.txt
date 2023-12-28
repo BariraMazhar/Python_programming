@@ -1,0 +1,23 @@
+---------------------------
+How to take input in python
+---------------------------
+	In python, we can take input using input function.This function gives a return value as string character. hence we have to pass this string value to a variable.
+
+	Example:
+			a=input("Enter your name: ")
+			print("My name is: ",a)
+
+
+
+
+
+
+		*The string in parenthesis of input() function will be displayed on the screen and the string entered by user will only be stored in the variable.
+
+
+ 		*As input function gives a return value as string character. hence we have to typecast to required datatype.
+
+	Example:
+			a=input("Enter first number: ")
+			b=input("Enter second number: ")
+			print("sum is ",int(a)+int(b))
