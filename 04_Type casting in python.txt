@@ -1,0 +1,36 @@
+-------------
+Type Casting
+-------------
+	The conversion of one datatype into another datatype is called type casting.
+              
+               There are two basic kinds of type casting:
+
+
+
+---------------------
+Explicit type casting
+---------------------
+	The conversion of one datatype into another datatype done manually by programmer or developer, as per need.
+
+	Example:
+			string='7'
+			num=3
+			string_num= int(string)
+			sum=string_num + num
+			print("sum is",sum)
+
+
+---------------------
+Implicit type casting
+---------------------
+	In python, some datatypes have high order and some have lower order.While performing an operation, acoording to the level, one datatype is converted into other by python interpreter. This is called implicit type casting.
+
+		*python converts lower order datatype into higher to prevent data loss.
+
+
+	Example:
+			a=2.2
+			b=3
+			pritn(a + b)
+		
+		*float has higher order, so output will be floating number.	
