@@ -1,0 +1,32 @@
+---------------
+String Slicing
+---------------
+string slicing means getting specific characters from a string.In this, the string is taken as an array and the starting and ending indeces of the specified character are used, inside square brackets.The characters are printed on those indeces from starting index to n-1 index (where n is second specified index). 
+	Example:
+			name=johnny
+			print(name[0:4]
+		*This will print 'j' 'o' 'h' 'n'. As n=4, so character on index 0 to character on index 3 will be printed, or you can say 0 to 4, first 4 characters will be printed.
+
+
+-------------------
+Length of a string 
+-------------------
+Length of a string can be find out by using len() function.
+	Example:
+			name=johnny
+			print(len(name))
+		*output will be 6.
+
+
+-----------------------
+negative string slicing
+-----------------------
+When a negative index is given, python interpreter subtract it from the length of string and use the answer as index.
+	Example:
+			name=johnny
+			print(namae[-3:6]
+		*The output will be 'n' 'n' 'y'.The python interpreter subtracted 3 from the length of string which is 6 and takes the answer "3" as starting index. It then prints from index 3 to index 5 (n-1).
+	Example 2:
+			name=johnny
+			print(name[-5:3]
+		*the output will be 'o' and 'h'.
