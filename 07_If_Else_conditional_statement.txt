@@ -1,0 +1,80 @@
+---------------------
+conditional statement
+---------------------
+Sometimes the programmer needs to check a condition before executing a statement,such type of statements are called conditional statements.
+
+
+
+-----------------
+IF-Else statement
+-----------------
+If else statement is used when one statement is executed when the condition is true and execute the other statement when the condition is false.
+The syntax of IF-else statement is:
+			if(condition):
+			     statement 1
+			else:
+			     statementt 2
+
+
+	Example: If your age is over 18,you can drive.Otherwise you can't.
+			
+				age=int(input("Enter your age: "))
+				print("your age is ",age)
+				if(age>18):
+				    print("you can drive")
+				else:
+				    print("you can't drive")
+
+
+-------------------
+If-ElseIf statement
+-------------------
+when there are more than two choices available and only one can be executed based on condition, such type of statements are called If-ElseIf or Elif statement. 
+The syntax of Elif statement is:
+			if(condition):
+			     statement 1
+			elif(condition):
+			     statementt 2
+			else:
+			     statement 2
+
+
+	Example:
+			num=int(input("Enter a number: "))
+				if (num>0):
+				    print("number is positive")
+				elif (num<0):
+				    print("number is negative")
+				else:
+				    print("The number is zero")
+
+
+-------------------
+Nested If statement
+-------------------
+If statement enclosed by another if statement is called nested if statement.The condition of outer if is checked first and then the condition of inner if checked.
+The syntax of nested if is:
+			if(condition):
+			     if(condition2)
+				   statement 1
+				   statement 2
+			     else:
+				    statement 3
+			else:
+			     statement 4
+
+
+
+	Example:
+			num=int(input("Enter a number: "))
+				if (num==0):
+				        print("The number is zero")
+				elif(num>0):
+					if (num<=10):
+					     print("number is between 1-10")
+				else:
+   				        print("number is negative")
+
+
+
+ 
