@@ -1,0 +1,37 @@
+--------------------
+Match-Case statement
+--------------------
+ To implement Switch-case like characteristics,very similar to if-else functionality, we use a match case in python.A match statement will compare a given variable's value to different shapes also referred to as patterns.Tne main idea is to comparing a variable to all patterns like 'case 1', 'case 2' and so on. 
+
+
+	Syntax:
+		match variable:
+			case value1:
+				statement 1
+			case value2:
+				statement 2
+			.
+			.
+			.
+			case valueN:
+				statement N
+			case _:
+				default statement
+
+		*case '_' is used for default statement.It works as else statement,if no case matches, default statement is executed.
+
+
+	Example:
+			a=input("Enter first number: ")
+			b=input("Enter second number: ")
+			x=input("Enter an operator: ")
+			match x:
+			 case '+':
+			  print(int(a)+int(b))
+			 case '-':
+			  print(int(a)-int(b))
+			 case '*':
+			  print(int(a)*int(b))
+			 case '/':
+			  print(int(a)/int(b))
+				
