@@ -1,0 +1,49 @@
+---------
+For Loop
+---------
+For loop is known as a loop with a known number of repetitions. But in Python, this loop is a more general statement. This means that the For loop is used when the number of iterations is known before entering the loop, as opposed to the While loop, which is based on conditions.
+
+	Syntax:
+			for  variable  in  sequence :
+				statement(s)
+
+
+	Example:
+			name="johnny"
+			for i in name:
+			    print(i)
+
+
+-----------------
+Range in for loop
+-----------------
+One of the built-in sequences is range() to control how many times our loop will iterate.
+
+	syntax:
+			for  variable  in  range(parameter):
+				statement
+
+		*range() has three parameters:
+
+			Start – is the beginning of the sequence (optional parameter and default value 0)
+			Stop – is the sequence stop point (required)
+			Step – is a sequence step (optional parameter and default value 1).
+
+
+
+	Example:
+			 #with stop only
+			    for i in range(5):
+			        print(i)             #numbers from 0 to 4 will be printed
+
+
+
+			 #with start and stop
+			    for i in range(3,12):
+			        print(i)              #numbers from 3 to 11 will be printed
+
+
+
+			 #with start, stop and step
+			    for i in range(3,30,3):
+			        print(i)               #numbers from 3 to 29 with a gap of 3 will be printed

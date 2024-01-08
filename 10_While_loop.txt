@@ -1,0 +1,15 @@
+-----------
+while loop
+-----------
+Python While Loop is used to execute a block of statements repeatedly until a given condition is satisfied. When the condition becomes false, the line immediately after the loop in the program is executed.
+
+	Syntax:
+			while (condition):
+			    statement(s)
+
+
+	Example:
+			count=0
+			while(count<=10):
+			    print(count)
+			    count=count+1
