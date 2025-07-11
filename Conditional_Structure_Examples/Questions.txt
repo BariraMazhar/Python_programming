@@ -1,3 +1,26 @@
 Question # 1:
 Take age as user input and print 'child' if the age is less than 13 years, 'teenager' if the age is between 13 - 20, 'adult' if age is between 21 - 60 and 'senior' if more than 60.
 
+Question # 2:
+Movie tickets are priced based on age. $12 for adults(18 or over), $8 for children. Everyine gets a $2 discount on weednesday.
+
+Question # 3:
+Assign a Letter grade based on a student's score.A(90-100), B(80-89), C(70-79), D(60-69), F(below 60).
+
+Question # 4:
+Determine if a fruit is ripe, overripe or unripe based on its colour (i.e, Banana Green - Unripe, Yellow - Ripe, Brown - overripe )
+
+Question # 5:
+suggest an activity based on Weather. (e.g Sunny - Go for a walk, Rainy -  Read a book, Snowy - Build a snowman)
+
+Question # 6:
+Choose a moode of transportation based on the distance(e.g < 3km: walk, 3-15km: Bike, >15km: Car)
+
+Question # 7:
+Customize a coffee order: Small, medium or large with an option for extra shot of espresso.
+
+Question # 8:
+Check if a password is Weak, Medium or strong. Criteria: < 6 characters (weak), 6-10 characters(Medium), >10 characters (Strong)
+
+Question # 9:
+Determine if a year is a leap year. (Leap years are divisible by 4, but not by 100 unless also divisibe by 400)
