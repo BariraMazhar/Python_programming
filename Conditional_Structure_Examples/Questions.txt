@@ -24,3 +24,6 @@ Check if a password is Weak, Medium or strong. Criteria: < 6 characters (weak), 
 
 Question # 9:
 Determine if a year is a leap year. (Leap years are divisible by 4, but not by 100 unless also divisibe by 400)
+
+Question # 10:
+Recommend a type of pet food based on the pet's species and age. (e.g dog <2 years: puppy food, cat >5 years: senior cat food)
