@@ -1,0 +1,28 @@
+1- Numbers : 1234, 3.1417, 3+44j                                (immutable)
+        numbbers can be integers, decimals, complex etc
+
+2- String : "fruit", 'Bob', "nda/@h"                                (immutable)
+        string is text enclosed in double or single qoutes.
+
+3- Boolean :  true, false
+            this will result in eaither true or false
+
+4- List : [1, 2, 3, 'four', 5, 6, 7], list(range(10))               (mutable)
+        Lists are used to store multiple items in a single variable.List items are ordered and allow duplicate values.
+
+5- Tuple : (1, 2, 3, 4, 5,), ('apple', 'Banana', 'mango', 8, 9)         (immutable)
+        A tuple is like a list which is ordered.Tuples are written with round brackets.
+
+6- Dictionary : ('food' : 'Meat', 'drink' : 'juice')                (mutable)
+        Dictionaries are used to store data values in key:value pairs.A dictionary is a collection which is ordered and do not allow duplicates.
+
+7- Set : set('abc'), set('a', 'b', 'c')                             (mutable)
+        Sets are used to store multiple items in a single variable.A set is a collection which is unordered and unindexed.
+
+
+
+immutable:
+When you "modify" an immutable object, a new memory location is allocated for the new object. The old object, if no longer referenced, becomes eligible for garbage collection.
+
+mutable:
+When you modify a mutable object, no new memory is allocated for the object itself (unless the modification requires resizing, like appending to a list that exceeds its current capacity). 
