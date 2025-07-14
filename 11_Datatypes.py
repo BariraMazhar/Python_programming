@@ -1,4 +1,4 @@
-#numbers
+#numeric types
 x = 1    # int
 y = 2.8  # float
 z = 1j   # complex
@@ -7,16 +7,17 @@ print(type(x))
 print(type(y))
 print(type(z))
 
+#text type
 #String
 print("Hello")
 print('Hello')
 
-#Boolean
+#Boolean type
 print(10 > 9)
 print(10 == 9)
 print(10 < 9)
 
-
+#collection types
 #Lists
 thislist = ["apple", "banana", "cherry"]
 print(thislist)
@@ -28,7 +29,6 @@ print(thistuple)
 thistuple[2] = "mango"
 print(thistuple)
 
-
 #dictionary
 thisdict = {
   "brand": "Ford",
@@ -38,8 +38,7 @@ thisdict = {
 print(thisdict)
 print(thisdict["brand"])
 
-
-#sets
+#set
 thisset = {"apple", "banana", "cherry"}
 print(thisset)
 
