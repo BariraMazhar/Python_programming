@@ -50,7 +50,6 @@ greeting()
 
 
 #lambda function
-# 
 cube = lambda num: num ** 3
 
 print(cube(6))
@@ -65,4 +64,18 @@ def sum_all(*args):
         sum += i
     return sum
 
-print(sum_all(2, 4, 7,8,2,9))
+print(sum_all(2, 4, 7, 8, 2, 9))
+
+
+
+def print_kwargs(**kwargs):
+    for key, value in  kwargs.items():
+        print(f"{key}, {value}")
+        
+
+print_kwargs(name = "Alice", power = "magic")
+print_kwargs(name = "Alice")
+print_kwargs(name = "Alice", power = "magic", enemy = "cruela")
+
+
+
