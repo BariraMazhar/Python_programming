@@ -94,4 +94,9 @@ for num in even_generator(10):
     print(num)
 
 
-
+#factorial of a number
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
