@@ -43,3 +43,31 @@ def greet(name, greeting = "Hi" ):
 greet('Bera', 'Asslam o alaikum')
 
 
+#Problem 3:
+        # Implement a decorator that caches the return valus of a function, so that when its called with the same arguments, the cached value is returned instead of re-executing the function.
+# solution:
+    
+import time
+ 
+def cache(func):
+    cached_value = {}
+    def wrapper(*args, **kwargs):
+        if args in cached_value:
+            return cached_value[args]
+        result =  func(*args, **kwargs)
+        cached_value[args] = result
+        return result
+    return wrapper
+    
+    
+    
+    
+@cache    
+def Function(a, b):
+    time.sleep(4)
+    print(a + b)
+    
+
+print(Function(2, 8))
+print(Function(2, 8))
+print(Function(5, 4))
