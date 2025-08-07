@@ -1,1 +1,0 @@
-This manager app is a simplest app that store your favorite youtube videos with their duraation(time)

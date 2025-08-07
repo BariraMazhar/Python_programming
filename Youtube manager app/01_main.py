@@ -1,3 +1,9 @@
+
+# This manager app is a simplest app that store your favorite youtube videos with their duration(time)
+
+
+#code:
+
 import json
 
 
@@ -8,13 +14,18 @@ def load_data():
     except:
         return []
     
+    
 def save_data_helper(videos):    
     with open('youtube.txt', 'w') as file:
         json.dump(videos, file)
         
+        
+        
 def list_all_videos(videos):
     for index, video in enumerate(videos, start = 1):
-        print(f"{index}.")
+        print(f"{index}. {video['name']}")
+        
+        
 
 def add_videos(videos):
     name = input("Enter video name: ")
@@ -22,12 +33,28 @@ def add_videos(videos):
     videos.append({'name': name, 'time': time})
     save_data_helper(videos)
     
-def update_videos(deos):
-    pass
-
+    
+def update_videos(videos):
+    list_all_videos(videos)
+    index = int(input("Enter the video number you want to update: "))
+    if 1<= index <= len(videos):
+        name = input("Enter video name: ")
+        time = input("Enter video time: ")
+        videos[index-1] = {'name': name, 'time': time}
+        save_data_helper(videos)
+    else:
+        print('Invalid index selected')
+    
+    
+    
 def delete_videos(videos):
-    pass
-
+    list_all_videos(videos)
+    index = int(input("Enter the number of video you want to delete: "))
+    if 1<= index <= len(videos):
+        del  videos[index-1]
+        save_data_helper(videos)
+    else:
+        print("Invalid index selected")
 
 def main():
     videos = load_data()
